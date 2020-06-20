@@ -1,0 +1,17 @@
+{
+    "name": "xianyu/enum",
+    "authors": [
+        {
+            "name": "xianyu",
+            "email": "1191249254@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xianyu\\Enum\\": "src/"
+        }
+    }
+}
