@@ -1,9 +1,12 @@
-# enum
-php枚举
+<?php
+/**
+ * @author xianyu
+ * @date 2020/6/20
+ * @version 1.0.0
+ */
 
-# 使用方法
-> Test.php
-```php
+require_once __DIR__ . '/../vendor/autoload.php';
+
 /**
  * Class StatusEnum
  * @method static self OK
@@ -49,4 +52,3 @@ class StatusEnum extends \Xianyu\Enum\Enum
 
 echo StatusEnum::OK()->getKey();    // 1
 echo StatusEnum::OK()->getValue();  // 正常
-```
